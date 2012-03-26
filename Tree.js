@@ -39,7 +39,7 @@ define([
 ], function ( array, declare, event, win, domAttr, domClass, domConstruct, domStyle, 
               NodeTemplate, registry, Tree, CheckBox, StoreModel ) {
 
-  var TreeNode = declare([dijit._TreeNode], {
+  var TreeNode = declare([Tree._TreeNode], {
     // checkBox: 
     //    Reference to a checkbox widget.
     checkBox: null,
